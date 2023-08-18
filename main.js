@@ -135,5 +135,5 @@ var btn = document.getElementById('btn');
 btn.onclick = function(){
     console.log('Viec 1');
     console.log('Viec 2');
-    alert('Viec 3');
+    alert('Viec 1');
 }
