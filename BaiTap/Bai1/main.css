@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-logo{
+    height: auto;
+    width: 300px;
+}
+.header-logo:hover{
+    cursor: pointer;
+}
+#container .news h2{
+    color: orange;
+    font-size: 20px;
+    margin-top: 25px;
+}
+#container .news li{
+    list-style: none;
+}
+#container .news li::before{
+    content: "\2022";
+    color: red;
+    margin-left: 20px;
+    padding-right: 5px;
+    font-size: 25px;
+}
+hr{
+    background-color: red;
+    padding:1px;
+    border: none;
+    margin: 40px 0px 40px 0px;
+}
+.section .section-head{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(44 187 117);
+}
+.section-item-title{
+    color:rgb(116, 122, 29);
+    margin-bottom: 15px;
+}
